@@ -62,3 +62,7 @@ $ yarn lint {path|file}
 $ yarn lint src/components
 $ yarn lint src/components/atoms/Input.tsx
 ```
+
+## Reference Document
+* https://tech.kakao.com/2019/12/05/make-better-use-of-eslint/
+* https://typicode.github.io/husky/
