@@ -32,7 +32,7 @@ module.exports = {
       },
     ],
     "react/require-default-props": "off",
-    "react/function-component-definition": "on",
+    "react/function-component-definition": "error",
     "@typescript-eslint/no-floating-promises": "off",
     "jsx-quotes": ["error", "prefer-single"],
   },
