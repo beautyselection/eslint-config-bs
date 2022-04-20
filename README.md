@@ -4,6 +4,11 @@
 
 언제든 더 좋은 linting 방법이 있다면 Test Case와 함께 PR 바랍니다 😉
 
+## Feature
+
+- [x] airbnb 컨벤션 기반의 linting
+- [ ] Husky를 통한 git commit전 lint test 
+
 ## Install
 
 lint를 적용하고자 하는 프로젝트의 `package.json` 파일에 아래와 같은 구문을 추가합니다.
