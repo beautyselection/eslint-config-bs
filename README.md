@@ -11,15 +11,17 @@
 
 ## Install
 
-lint를 적용하고자 하는 프로젝트의 `package.json` 파일에 아래와 같은 구문을 추가합니다.
+lint를 적용하고자 하는 프로젝트에 npm 혹은 yarn을 이용해 패키지를 추가합니다.
+
+```
+$ npm install --save-dev git+https://github.com/beautyselection/eslint-config-bs.git
+$ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git
+```
+
+이 후에 프로젝트의 `package.json` 파일에 `scripts`를 추가합니다.
 
 ```
 {
-  "dependency": {
-    // ...
-    "eslint-config-bs": "git+https://github.com/beautyselection/eslint-config-bs.git",
-    // ...
-  },
   "scripts": {
     // ...
     "lint": "node_modules/.bin/eslint",
