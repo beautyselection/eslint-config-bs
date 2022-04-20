@@ -4,7 +4,7 @@
 
 언제든 더 좋은 linting 방법이 있다면 Test Case와 함께 PR 바랍니다 😉
 
-## Feature
+## Todo
 
 - [x] airbnb 컨벤션 기반의 linting
 - [ ] Husky를 통한 git commit전 lint test 
