@@ -41,7 +41,7 @@ module.exports = {
 };
 ```
 
-# How to use?
+## How to use?
 
 프로젝트 내의 모든 파일에 대한 lint 검사를 하기 위해서는 `.`를 사용합니다.
 
