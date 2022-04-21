@@ -56,9 +56,11 @@ module.exports = {
 };
 ```
 
+### 프로젝트 별 확인 내용
+
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/38205068/164403733-820ccb47-216b-4572-82a0-4483a81d1494.png">
 
-위 사진과 같이 `.husky` 디렉토리가 생성되지 않은 프로젝트의 경우 최초 한번에 한배 아래 명령들을 실행합니다.
+위 사진과 같이 `.husky` 디렉토리가 생성되지 않은 프로젝트의 경우 최초 한번에 한하여 아래 명령들을 실행합니다.
 
 아래 명령어를 통해 husky를 install 합니다.
 
