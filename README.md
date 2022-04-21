@@ -59,8 +59,8 @@ $ npm run lint {path|file}
 $ yarn lint {path|file}
 
 // examples
-$ yarn lint src/components
-$ yarn lint src/components/atoms/Input.tsx
+$ yarn lint ./src/components
+$ yarn lint ./src/components/atoms/Input.tsx
 ```
 
 lint 검사와 함께 오류를 해결하기 위해서는 `--fix` 옵션을 사용합니다.
