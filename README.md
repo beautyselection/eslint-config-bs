@@ -14,8 +14,8 @@
 lint를 적용하고자 하는 프로젝트에 npm 혹은 yarn을 이용해 패키지를 추가합니다.
 
 ```
-$ npm install --save-dev git+https://github.com/beautyselection/eslint-config-bs.git
-$ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git
+$ npm install --save-dev git+https://github.com/beautyselection/eslint-config-bs.git eslint prettier
+$ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git eslint prettier
 ```
 
 이 후에 프로젝트의 `package.json` 파일에 `scripts`를 추가합니다.
@@ -24,7 +24,7 @@ $ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git
 {
   "scripts": {
     // ...
-    "lint": "node_modules/.bin/eslint",
+    "lint": "./node_modules/.bin/eslint",
     // ...
   }
 }
@@ -45,7 +45,7 @@ module.exports = {
 
 ## How to use?
 
-프로젝트 내의 모든 파일에 대한 lint 검사를 하기 위해서는 `.`를 사용합니다.
+프로젝트 내의 모든 파일에 대한 lint 검사를 하기 위해서는 `lint .` 명령어를 사용합니다.
 
 ```
 $ npm run lint .
@@ -63,6 +63,14 @@ $ yarn lint src/components
 $ yarn lint src/components/atoms/Input.tsx
 ```
 
+lint 검사와 함께 오류를 해결하기 위해서는 `--fix` 옵션을 사용합니다.
+
+```
+$ npm run lint . --fix
+$ yarn lint . --fix
+```
+
 ## Reference Document
 * https://tech.kakao.com/2019/12/05/make-better-use-of-eslint/
 * https://typicode.github.io/husky/
+* https://github.com/okonet/lint-staged
