@@ -27,6 +27,7 @@ module.exports = {
       "error",
       { ignoreRestSiblings: true },
     ],
+    "no-unused-vars": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-curly-brace-presence": [
