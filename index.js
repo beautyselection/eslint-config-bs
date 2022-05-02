@@ -22,6 +22,8 @@ module.exports = {
     ]),
   plugins: ["react", "react-hooks"],
   rules: {
+    "@typescript-eslint/no-floating-promises": "off",
+    "no-unused-vars": ["error", { ignoreRestSiblings: true }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-curly-brace-presence": [
@@ -33,7 +35,6 @@ module.exports = {
     ],
     "react/require-default-props": "off",
     "react/function-component-definition": "error",
-    "@typescript-eslint/no-floating-promises": "off",
     "jsx-quotes": ["error", "prefer-single"],
   },
   ignorePatterns: ["*.js"],
