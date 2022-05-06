@@ -16,11 +16,10 @@ module.exports = {
   extends: ["./rules/import.js"]
     .map(require.resolve)
     .concat([
-      "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
     ]),
-  plugins: ["react", "react-hooks"],
+  plugins: ["react-hooks"],
   rules: {
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/no-unused-vars": [
