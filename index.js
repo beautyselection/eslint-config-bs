@@ -16,6 +16,7 @@ module.exports = {
   extends: ["./rules/import.js"]
     .map(require.resolve)
     .concat([
+      "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
     ]),
