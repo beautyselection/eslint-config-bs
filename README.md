@@ -14,8 +14,8 @@
 lint를 적용하고자 하는 프로젝트에 npm 혹은 yarn을 이용해 패키지를 추가합니다.
 
 ```
-$ npm install --save-dev git+https://github.com/beautyselection/eslint-config-bs.git eslint prettier husky lint-staged
-$ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git eslint prettier husky lint-staged
+$ npm install --save-dev git+https://github.com/beautyselection/eslint-config-bs.git#v1.0.0 eslint prettier husky lint-staged
+$ yarn add -D git+https://github.com/beautyselection/eslint-config-bs.git#v1.0.0 eslint prettier husky lint-staged
 ```
 
 이 후에 프로젝트의 `package.json` 파일에 `scripts`를 추가합니다.
